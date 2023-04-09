@@ -1,4 +1,4 @@
-# Convert .z80 files to Micro-Professor MPF-1 files
+# Converts .z80 files to Micro-Professor MPF-1 load files
 
 ## z80_to_mpf.py
 ### This is a Python script that takes a .z80 file as an argument and creates two output files ...
