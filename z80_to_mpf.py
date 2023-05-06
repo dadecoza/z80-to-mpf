@@ -164,9 +164,6 @@ def write_intel_hex_file(filename, srecords):
 
 def write_files(filename):
     name, ext = filename.split(".")
-    if ext != "z80":
-        print("Expected .z80 file")
-        sys.exit(0)
     wav_filename = "%s.wav" % name
     hex_filename = "%s.hex" % name
     print("Loading %s ..." % filename)
